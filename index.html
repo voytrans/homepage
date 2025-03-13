@@ -1,1 +1,36 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* 让页面充满视口高度 */
+        }
+        header, footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            flex: 1; /* 让 main 区域填充剩余空间 */
+            background: #f4f4f4;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <main>Content</main>
+    <footer>Footer</footer>
+</body>
+</html>
