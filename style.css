@@ -1,1 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-bar-image{
+    background-image: url(https://live-inttra.pantheonsite.io/wp-content/uploads/2022/06/GettyImages-1286676121-CORRECTED-web.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header-items a:hover {
+    cursor: pointer;
+    color:#ff7979;
+}
+.logo i {
+    font-size: 17px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: top;
+    font-style: normal;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px;
+    margin: auto 0px;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.header-bar-details {
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    padding-right: 50%;
+    color: white;
+}
+
+.header-bar-details p {
+    font-size: 20px;
+}
+.header-bar-image::before {
+    content: ''; /* 必须有 content 属性才能显示伪元素 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(62 62 62 / 50%); /* 黑色半透明遮罩，0.5 是透明度值 */
+     /* 确保遮罩在背景图上面 */
+    z-index: 0;
+}
+.header-bar-details {
+    padding-top: 50px;
+    position: relative;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 40%;
+    color: white;
+    z-index: 0;
+}
+
+.header-bar-details p {
+    font-size: 20px;
+}
+
+.header-bar {
+    background-color: #0000005e;
+}
+
+.header-bar-details h1 {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: "Graphic Light", Graphik;
+}
+.content-1 {
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content-1-2 {
+    display: flex;
+    flex-direction: column;
+    margin: auto 20px;
+    padding: 10px;
+}
+.footer {
+    min-height: 90px;
+    background: #282828;
+    display: flex;
+    margin-top: 100px;
+    color: white;
+}
+.footer p {
+    /* flex: 1; */
+    margin: auto;
+}
+.content-1 {
+    margin-top: 50px;
+}
+.header-items {
+    display: flex;
+    margin: auto 0px;
+}
+
+.header-items a {
+    font-size: 22px;
+    padding: 10px;
+}
+.logo h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.logo p {
+    font-size: 20px;
+   
+}
+.content-1-1 {
+    border-radius: 10px;
+    margin: 15px 25px;
+}
+.content-1-1 img {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.content-1-2 h1 {padding-bottom: 10px;}
