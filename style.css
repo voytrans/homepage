@@ -104,6 +104,7 @@
 .footer p {
     /* flex: 1; */
     margin: auto;
+    font-family: "Microsoft YaHei", sans-serif;
 }
 .content-1 {
     margin-top: 50px;
@@ -123,21 +124,21 @@
 }
 .logo p {
     font-size: 19px;
-    border-bottom: 1px solid #a4a4a4;
     margin-bottom: 2px;
     padding-bottom: 4px;
 }
 .content-1-1 {
+    display: flex;
     border-radius: 10px;
     margin: 15px 25px;
 }
 .content-1-1 img {
     width: 500px;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
-.content-1-2 h1 {padding-bottom: 10px;}
+.content-1-2 h1 {padding-bottom: 10px;font-family: "Georgia", serif;}
 
 @media screen and (max-width:767px){
     .logo{
@@ -150,11 +151,12 @@
      }
      .header-bar-details p{
         font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
         font-weight: 100;
      }.header-bar-details h1 {
         font-size: 25px;
      }.content-1{
-        width: 100%;
+        width: 90%;
         flex-direction: column;
         margin-bottom: 12px;
      }.logo h1 {
@@ -177,7 +179,16 @@
         margin: 0 auto;
      }
      .content-1-2 p{
-        /* margin: 0px auto; */
+        font-family: Arial, Helvetica, sans-serif;
+     }.content-1-1 img {
+        width: 95%;
+        margin: auto;
+     }.logo p {
+        border-bottom: 1px solid #a4a4a4;
+        @font-face {
+  font-family: "Alibaba PuHuiTi";
+        src: url("your-font-path/Alibaba-PuHuiTi-Regular.ttf") format("truetype");
+};
      }
  
 }
