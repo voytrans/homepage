@@ -95,7 +95,7 @@
     padding: 20px 10px;
 }
 .footer {
-    min-height: 90px;
+    min-height: 100px;
     background: #282828;
     display: flex;
     margin-top: 100px;
@@ -189,6 +189,8 @@
   font-family: "Alibaba PuHuiTi";
         src: url("your-font-path/Alibaba-PuHuiTi-Regular.ttf") format("truetype");
 };
+     }.footer {
+        margin-top: 10px;
      }
  
 }
