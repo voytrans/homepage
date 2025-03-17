@@ -1,36 +1,65 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox Layout</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh; /* 让页面充满视口高度 */
-        }
-        header, footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        main {
-            flex: 1; /* 让 main 区域填充剩余空间 */
-            background: #f4f4f4;
-            padding: 20px;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>Header</header>
-    <main>Content</main>
-    <footer>Footer</footer>
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+                <h1>VoyTrans<i>&reg</i></h1>
+                <p>Qingdao Internional Logistics LTD</p>
+            </div>
+            <div class="header-items">
+                <a>Join us</a>
+                <a>Contact us</a>
+            </div>
+        </div>
+        <div class="header-bar">
+            
+            <div class="header-bar-image">
+                <div class="header-bar-details">
+                    <h1>About Us</h1>
+                <p>The company was founded in 2021 and has since specialized in providing efficient and reliable transportation solutions for businesses around the world</p>
+                <br>
+
+                    <p>Our team consists of highly skilled professionals with expertise in logistics, supply chain management, freight forwarding, and customer service. We have a dedicated team that ensures smooth operations and timely deliveries, working closely with partners and clients to meet their specific needs.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="content-1">
+            <div class="content-1-1">
+                <img src="pic-1.jpg" alt="">
+            </div>
+            <div class="content-1-2">
+                <h1>Our Global Logistics Network</h1>
+                <p>We are a experienced logistics company providing efficient and reliable transportation solutions to international markets. Our primary service destinations are mainly in North America, Europe, and Latin America.</p>
+                <br>
+                <p> With a commitment to efficiency, security, and customer satisfaction, we offer seamless freight forwarding and supply chain solutions tailored to meet the needs of our global clients.
+                    </p>
+            </div>
+        </div>
+
+        <div class="content-1">
+            <div class="content-1-1">
+                <img src="pic-2.jpg" alt="">
+            </div>
+            <div class="content-1-2">
+                <h1>Types of Cargo We Handle</h1>
+                <p>We specialize in handling a wide range of cargo to meet the diverse needs of our clients. Our services cover the transportation of general goods, perishable items, hazardous materials, and high-value shipments. </p>
+                <br>
+                    <p>  With our expertise in logistics and supply chain management, we ensure secure, efficient, and timely delivery of all types of freight. We maintain strong relationships with major shipping companies, allowing us to provide reliable and cost-effective sea freight solutions.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 Qingdao Voytrans International Logistics Co., Ltd.</p>
+        </div>
+
+    </div>
+    
 </body>
 </html>
